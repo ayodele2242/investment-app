@@ -1,0 +1,5 @@
+[10-May-2021 00:05:57 UTC] PHP Notice:  Undefined index: refCode in /home2/waleagro/public_html/akawocommunity.com/inc/payment/moneyCashout.php on line 7
+[05-Jun-2021 00:05:37 UTC] PHP Notice:  Undefined index: status in /home2/waleagro/public_html/akawocommunity.com/inc/payment/account_verification.php on line 38
+[05-Jun-2021 00:05:37 UTC] PHP Notice:  Undefined index: message in /home2/waleagro/public_html/akawocommunity.com/inc/payment/account_verification.php on line 55
+[05-Jun-2021 07:57:26 UTC] PHP Notice:  Undefined index: status in /home2/waleagro/public_html/akawocommunity.com/inc/payment/account_verification.php on line 38
+[05-Jun-2021 07:57:26 UTC] PHP Notice:  Undefined index: message in /home2/waleagro/public_html/akawocommunity.com/inc/payment/account_verification.php on line 55

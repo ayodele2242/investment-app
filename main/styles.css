@@ -1,0 +1,507 @@
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+	border: 2px solid #003968;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng,
+div.wpcf7-aborted {
+	border: 2px solid #003968;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+	border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #003968;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+
+span.wpcf7-list-item-label::before,
+span.wpcf7-list-item-label::after {
+	content: " ";
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 .ajax-loader {
+	visibility: hidden;
+	display: inline-block;
+	background-image: url('../../images/ajax-loader.gif');
+	width: 16px;
+	height: 16px;
+	border: none;
+	padding: 0;
+	margin: 0 0 0 4px;
+	vertical-align: middle;
+}
+
+div.wpcf7 .ajax-loader.is-active {
+	visibility: visible;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+div.wpcf7 input[type="file"] {
+	cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+	cursor: default;
+}
+
+div.wpcf7 .wpcf7-submit:disabled {
+	cursor: not-allowed;
+}
+
+
+
+.service-block-v3 {
+	background-color: #fff;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+  .service-block-v3 .service-content {
+	padding: 5px 30px;
+  }
+  
+  .service-block-v3 .service-title {
+	margin-bottom: 20px;
+	line-height: 24px;
+  }
+  
+  .service-rate-block {
+	margin-bottom: 30px;
+  }
+  
+  .service-rate-block .product-rate {
+	color: #f51f8a;
+	margin-bottom: 6px;
+	font-size: 18px;
+  }
+  
+  .rate-text {
+	font-size: 12px;
+  }
+  
+  .customer-block {
+	background-color: #fff;
+	padding: 30px;
+  }
+  
+  .customer-img {
+	position: relative;
+	margin-bottom: 30px;
+  }
+  
+  .customer-text {
+	color: #0a2759;
+	font-size: 21px;
+	margin-bottom: 30px;
+	font-family: "Merriweather", serif;
+	letter-spacing: -1px;
+	font-style: italic;
+	line-height: 36px;
+	font-weight: normal;
+  }
+  
+  .customer-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #f51f8a;
+  }
+  
+  .customer-quote-circle {
+	background-color: #f51f8a;
+	border-radius: 100%;
+	padding: 10px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 20px;
+	left: 30px;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+  }
+  
+  .how-it-block {
+	background-color: #fff;
+	padding: 30px;
+	min-height: 320px;
+  }
+  
+  .how-it-no {
+	font-size: 76px;
+	line-height: 86px;
+	color: #15549a;
+  }
+
+/*---------------
+Section Space
+* Section space help to create top bottom space. 
+*
+-----------------*/
+.section-space20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  
+  .section-space40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+  }
+  
+  .section-space60 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+  }
+  
+  .section-space80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+  }
+  
+  .section-space100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+  }
+  
+  .section-space120 {
+	padding-top: 120px;
+	padding-bottom: 120px;
+  }
+  
+  .section-space140 {
+	padding-top: 140px;
+	padding-bottom: 140px;
+  }
+  
+  /*-----------------------------------------
+  Background & Block color 
+  ------------------------------------------*/
+  .bg-light {
+	background-color: #fafcfd;
+  }
+  
+  .bg-primary {
+	background-color: #15549a !important;
+	color: #778191;
+  }
+  
+  .bg-default {
+	background-color: #f51f8a;
+  }
+  
+  .bg-default-light {
+	background-color: #ffdced;
+  }
+  
+  .bg-white {
+	background-color: #fff;
+  }
+  
+  .outline {
+	border: 1px solid #dee4ee;
+  }
+  
+  .small-title {
+	font-size: 14px;
+	color: #778191;
+	font-weight: 500;
+  }
+  
+  .big-title {
+	font-size: 36px;
+	font-weight: 600;
+	color: #082f5b;
+  }
+  
+  .capital-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+  }
+  
+  .bg-boxshadow {
+	-webkit-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, 0.5);
+	-moz-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, 0.5);
+	box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, 0.5);
+  }
+  
+  .bg-gradient {
+	position: relative;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f2b70+0,1f2b70+47,943a9e+100&0.9+0,0.9+100 */
+	background: -moz-linear-gradient(
+	  -45deg,
+	  rgba(31, 43, 112, 1) 0%,
+	  rgba(31, 43, 112, 1) 47%,
+	  rgba(148, 58, 158, 1) 100%
+	);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(
+	  -45deg,
+	  rgba(31, 43, 112, 0.9) 0%,
+	  rgba(31, 43, 112, 0.9) 47%,
+	  rgba(148, 58, 158, 0.9) 100%
+	);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+	  135deg,
+	  rgba(31, 43, 112, 0.9) 0%,
+	  rgba(31, 43, 112, 0.9) 47%,
+	  rgba(148, 58, 158, 0.9) 100%
+	);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61f2b70', endColorstr='#e6943a9e', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+  }
+  
+  .well-box {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 4px;
+  }
+  
+  .bg-yellow-light {
+	background-color: #fff9e0;
+  }
+  
+  .bg-pink {
+	background-color: #f51f8a !important;
+  }
+  
+  .bg-dark {
+	background-color: #4e5257 !important;
+  }
+  
+  .bg-dark-blue {
+	background-color: #023975;
+  }
+  
+  .bg-light-blue {
+	background-color: #15549a;
+  }
+  
+  .text-pink {
+	color: #f51f8a;
+  }
+  
+  .text-info {
+	color: #0099fa !important;
+  }
+  
+  .text-success {
+	color: #1ca440 !important;
+  }
+  
+  .card {
+	border: 1px solid #d3dbea;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-bottom: 30px;
+  }
+  
+  .card-body {
+	padding: 30px;
+  }
+  
+  .card-header {
+	background-color: #fff;
+  }
+
+  .icon-svg-2x {
+	width: 80px;
+  }
+  
+  .icon-svg-1x {
+	width: 60px;
+  }
+  
+  /*--------------------------------
+  Service-img
+  ---------------------------------*/
+  .service-img-box {
+	transition: box-shadow 0.5s;
+  }
+  
+  .service-img-box:hover {
+	-webkit-box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+	-moz-box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+	box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+  }
+  
+  .service-img {
+	position: relative;
+  }
+  
+  .circle {
+	background-color: #e3f0fe;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #15549a;
+	border-radius: 100px;
+	color: #15549a;
+	margin: -70px auto 40px auto;
+	padding: 10px;
+	text-align: center;
+	line-height: 1.7;
+  }
+  
+  .number {
+	font-size: 24px;
+	font-weight: 500;
+  }
+  
+  .number-block {
+	text-align: center;
+  }
+  
+  .number-title {
+	margin-bottom: 20px;
+  }
+  
+  .circle-large {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	line-height: 2;
+	padding: 10px;
+	text-align: center;
+	font-size: 42px;
+  }
+  
+  .circle-default {
+	background-color: #f51f8a;
+	color: #fff;
+  }
+/*-----------------------------------------
+icon
+------------------------------------------*/
+
+.icon-1x {
+	font-size: 24px;
+  }
+  
+  /* default icon size of font*/
+  .icon-2x {
+	font-size: 48px;
+  }
+  
+  .icon-4x {
+	font-size: 68px;
+  }
+  .icon-6x {
+	font-size: 88px;
+  }
+  
+  .icon-8x {
+	font-size: 108px;
+  }
+  
+  .icon-default {
+	color: #f51f8a;
+  }
+  
+  .icon-primary {
+	color: #15549a;
+  }
+  
+  .icon-secondary {
+	color: #bcbcbc;
+  }
+  /*----------------
+margin space
+-----------------*/
+
+.mb0 {
+	margin-bottom: 0px;
+  }
+  
+  .mb5 {
+	margin-bottom: 5px;
+  }
+  
+  .mb10 {
+	margin-bottom: 10px;
+  }
+  
+  .mb20 {
+	margin-bottom: 20px;
+  }
+  
+  .mb30 {
+	margin-bottom: 30px;
+  }
+  
+  .mb40 {
+	margin-bottom: 40px;
+  }
+  
+  .mb60 {
+	margin-bottom: 60px;
+  }
+  
+  .mb80 {
+	margin-bottom: 80px;
+  }
+  
+  .mb100 {
+	margin-bottom: 100px;
+  }
+  
+  .mb140 {
+	margin-bottom: 140px;
+  }	  

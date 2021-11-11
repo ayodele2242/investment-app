@@ -1,0 +1,16 @@
+[15-Feb-2021 16:09:35 UTC] PHP Notice:  Undefined index: module in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 26
+[15-Feb-2021 16:09:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 26
+[15-Feb-2021 16:09:35 UTC] PHP Notice:  Undefined variable: suc in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 55
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: view in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 40
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: delete in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 42
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: view in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 40
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: delete in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 42
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: view in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 40
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: delete in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 42
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: view in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 40
+[15-Feb-2021 16:10:49 UTC] PHP Notice:  Undefined index: delete in /home2/miilorga/public_html/fhmcooperative.com/inc/user/addUser.php on line 42
+[20-May-2021 12:06:44 UTC] PHP Notice:  Undefined offset: 2 in /home2/waleagro/public_html/akawocommunity.com/inc/user/add_admin.php on line 37
+[20-May-2021 12:06:44 UTC] PHP Notice:  Undefined offset: 2 in /home2/waleagro/public_html/akawocommunity.com/inc/user/add_admin.php on line 38
+[20-May-2021 12:06:44 UTC] PHP Notice:  Undefined offset: 3 in /home2/waleagro/public_html/akawocommunity.com/inc/user/add_admin.php on line 35
+[20-May-2021 12:06:44 UTC] PHP Notice:  Undefined offset: 3 in /home2/waleagro/public_html/akawocommunity.com/inc/user/add_admin.php on line 37
+[20-May-2021 12:06:44 UTC] PHP Notice:  Undefined offset: 3 in /home2/waleagro/public_html/akawocommunity.com/inc/user/add_admin.php on line 38

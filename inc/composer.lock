@@ -1,0 +1,126 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c79a53d6a5b210bac3c85b12014e45a4",
+    "packages": [
+        {
+            "name": "matscode/paystack",
+            "version": "v1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matscode/paystack.git",
+                "reference": "423460ed6cdf7a0dd7ab638f04eda0dec44782a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matscode/paystack/zipball/423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+                "reference": "423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Matscode\\Paystack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Akanji",
+                    "email": "matscode@gmail.com",
+                    "homepage": "http://michaelakanji.com"
+                }
+            ],
+            "description": "This package is for communicating with PAYSTACK API",
+            "keywords": [
+                "payment",
+                "paystack",
+                "php"
+            ],
+            "time": "2017-07-10T14:27:10+00:00"
+        },
+        {
+            "name": "yabacon/paystack-php",
+            "version": "v2.1.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yabacon/paystack-php.git",
+                "reference": "452d73c2fa3aae86b10d125ca8a813932d67fbcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yabacon/paystack-php/zipball/452d73c2fa3aae86b10d125ca8a813932d67fbcc",
+                "reference": "452d73c2fa3aae86b10d125ca8a813932d67fbcc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.2",
+                "phpunit/phpunit": "~5.3",
+                "scrutinizer/ocular": "^1.1",
+                "squizlabs/php_codesniffer": "^2.3",
+                "vlucas/phpdotenv": "^2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yabacon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yabacon",
+                    "email": "yabacon.valley@gmail.com",
+                    "homepage": "https://github.com/yabacon",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Ibrahim Lawal",
+                    "email": "ibrahim@lawal.me",
+                    "homepage": "http://ibrahim.lawal.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Helps make your Paystack API calls giving a stdClass object.",
+            "homepage": "https://github.com/yabacon/paystack-php",
+            "keywords": [
+                "api",
+                "curl",
+                "customer",
+                "disable",
+                "enable",
+                "page",
+                "paystack",
+                "paystack-php",
+                "plan",
+                "subscription",
+                "transaction",
+                "verify",
+                "yabacon"
+            ],
+            "time": "2017-03-29T15:59:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
